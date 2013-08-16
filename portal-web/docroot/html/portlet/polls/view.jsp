@@ -120,6 +120,8 @@
 					<aui:button href="<%= permissionsURL %>" value="permissions" />
 				</c:if>
 			</aui:button-row>
+
+			<div class="separator"><!-- --></div>
 		</c:if>
 
 		<liferay-ui:search-iterator searchContainer="<%= searchContainer %>" />

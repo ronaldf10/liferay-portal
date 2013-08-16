@@ -127,6 +127,8 @@ searchContainer.setResults(results);
 					<aui:button href="<%= permissionsURL %>" name="permissionsButton" value="permissions" />
 				</c:if>
 			</aui:button-row>
+
+			<div class="separator"><!-- --></div>
 		</c:if>
 
 		<liferay-ui:search-iterator searchContainer="<%= searchContainer %>" />
